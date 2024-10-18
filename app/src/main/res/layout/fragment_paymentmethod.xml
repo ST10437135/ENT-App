@@ -3,7 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#EDE342">
 
     <!-- Credit Card Number Input -->
     <EditText
@@ -12,7 +13,8 @@
         android:layout_height="wrap_content"
         android:hint="Credit Card Number"
         android:inputType="number"
-        android:maxLength="16" />
+        android:maxLength="16"
+        />
 
     <!-- Expiry Date Input -->
     <EditText

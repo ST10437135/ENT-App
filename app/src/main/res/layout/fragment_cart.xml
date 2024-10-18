@@ -4,7 +4,8 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    android:background="#EDE342">
 
 
   <ScrollView
@@ -23,10 +24,11 @@
           android:id="@+id/totalPriceTextView"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
+          android:layout_marginBottom="8dp"
+          android:fontFamily="sans-serif-black"
           android:text="Total (Excl. VAT): R 0.00"
-          android:textSize="18sp"
-          android:textStyle="bold"
-          android:layout_marginBottom="8dp" />
+          android:textSize="20sp"
+          android:textStyle="bold" />
 
       <!-- VAT Amount TextView -->
       <TextView
@@ -78,19 +80,22 @@
             android:id="@+id/radioButtonCreditCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Credit Card" />
+            android:text="CREDIT CARD"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButtonDebitCard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Debit Card" />
+            android:text="DEBIT CARD"
+            android:textStyle="bold" />
 
         <RadioButton
             android:id="@+id/radioButtonPayPal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PayPal" />
+            android:text="PAYPAL"
+            android:textStyle="bold"/>
 
         <!-- Add other payment methods as needed -->
 
